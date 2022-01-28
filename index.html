@@ -73,9 +73,11 @@
 
 				<h3>Task 2 - The Table</h3>
 				<!-- Buttons for this task should be entered before the table tag. -->
+				<button type="button" onClick="turnRed()">Red</button>
+				<button type="button" onClick="turnBlue()">Blue</button>
+				<button type="button" onClick="turnGreen()">Green</button>
 
-
-				<table class="table table-striped">
+				<table id="change" class="table table-striped">
 					<thead>
 						<tr>
 							<th>#</th>
@@ -85,30 +87,30 @@
 						</tr>
 					</thead>
 					<tbody>
-						<tr><div id="brush">
+						<tr>
 							<th scope="row" >1</th>
 							<td>Mark</td>
 							<td>Otto</td>
 							<td>001</td>
-							<td><button type="button" bonClick="turnRed">Click Me</button>
-						</td></div>
+							<td>
+						</td>
 					</tr>
-						<tr><div id="paint">
+						<tr>
 							<th scope="row">2</th>
 							<td>Jacob</td>
 							<td>Thornton</td>
 							<td>002</td>
-							<td><button type="button" onClick="turnRed">Click Me</button>
+							<td>
 							</td>
-						</div></tr>
-						<tr><div id="color">
+						</tr>
+						<tr>
 							<th scope="row">3</th>
 							<td>Larry</td>
 							<td>Cable Guy</td>
 							<td>003</td>
-							<td><button type="button" onClick="turnRed">Click Me</button>
+							<td>
 							</td>
-						</div></tr>
+					</tr>
 					</tbody>
 				</table>
 
