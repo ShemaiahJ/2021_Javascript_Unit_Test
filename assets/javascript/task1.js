@@ -1,6 +1,6 @@
 function showButton(){
 document.getElementById('buttonTask1').style.display = "block";
-
+alert("test");
 }
 
 function byebye(){
